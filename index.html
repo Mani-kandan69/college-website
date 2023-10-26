@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none ;
+    color: #fff;
+    text-transform: uppercase;
+}
+.section{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 4%;
+}
+.section h1{
+    color:#fff;
+    line-height: 50px;
+    margin-bottom: 3%;
+}
+.section p{
+    color: grey;
+    margin-bottom: 3%;
+}
+.btn-1{
+    background-color: orangered;
+    padding:0.7rem 1rem;
+    border: none;
+    border-radius:10px;
+}
+.feature{
+    margin-top:4%;
+    margin-bottom: 3%;
+}
+.feature button{
+    padding: 0.7rem 2rem;
+    margin-right: 2rem;
+    font-size:1.2rem;
+    opacity: 0.7;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="C:\Users\ELCOT\Documents\vscode\mani\logo.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li> 
+                <li><a href="#">About</a></li>
+                <li><a herf="#">Courses</a></li>
+                <li><a herf="#">Blog</a></li>
+                <li><a href="#">Admission</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="section">
+            <h1>WE ENSURE A BETTER EDUCATION<br> FOR A BETTER WORLD</h1>
+                <p>AAGAC emphasis hands on, carrer-focused learning. We offer a range of credentials includings
+                bachelor's degree<br>,master's degree certificates- and will help you chart the best path towards
+            your goals</p>
+            <a herf="#"><button class="btn-1">GET STARTED</button></a>
+            <div class="feature">
+                <button> Learn Online Classes</button>
+                <button>Bridge Courses</button>
+                <button>Huge Library</button>
+                <button>Practical Exposure</button>
+            </div>
+        </div>
+    </div> 
+    <showcase>
+        <h1>POPULAR COURSES WE OFFER</h1>
+        <div class="COURSES">
+            <div class="CS">
+                <h3>Computer Science</h3>
+                <a href="#"><button class="apply">Apply Here</button></a>
+            </div>
+            <div class="BCA">
+                <h3>Bachelor of Computer Application</h3>
+                <a href="#"><button class="apply">Apply Here</button></a>
+            </div>
+        </div>
+    </showcase>
+</body>
+</html>
